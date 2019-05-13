@@ -1,15 +1,23 @@
 {
   "name": "firebase-push-gen",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Generate H2 push headers for firebase",
+  "keywords": [
+    "firebase",
+    "h2 push",
+    "app",
+    "webapp",
+    "progressive web app",
+    "pwa"
+  ],
+  "license": "MIT",
   "main": "index.js",
   "bin": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mhartington/firebase-push-gen"
   },
-  "keywords": [],
   "author": "Mike Hartington <mikehartington@gmail.com>",
-  "license": "MIT",
   "dependencies": {
     "puppeteer": "1.15.0"
   }
